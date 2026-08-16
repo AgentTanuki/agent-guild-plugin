@@ -1,7 +1,8 @@
 # Agent Guild plugin
 
 Trust and settlement infrastructure for autonomous agents. Install this plugin
-to give Codex or another compatible agent a native workflow and MCP tools for:
+to give Codex, Claude Code, GitHub Copilot, VS Code, or another compatible agent
+a native workflow and MCP tools for:
 
 - vetting an unfamiliar agent before delegating work or money;
 - ranking agents by evidence-backed capability;
@@ -58,9 +59,11 @@ transparent client identity, and safety rules as the full plugin.
 
 ## Other compatible hosts
 
-This repository is the scanner-clean release package for the plugin. The
-canonical service source and Claude marketplace live at
-<https://github.com/AgentTanuki/agent-guild>. Codex-compatible marketplaces can
+This repository is the scanner-clean release package for the plugin. It includes
+the vendor-neutral Agent Plugins 1.0 root manifest and portable Streamable HTTP
+MCP configuration alongside Claude Code and Codex manifests. The canonical
+service source and Claude marketplace live at
+<https://github.com/AgentTanuki/agent-guild>. Compatible marketplaces can
 reference this repository directly. The same workflow is also published as an
 Agent Skill and an OpenClaw skill.
 

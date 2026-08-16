@@ -44,6 +44,18 @@ Or load this release repository directly:
 claude --plugin-url https://github.com/AgentTanuki/agent-guild-plugin
 ```
 
+## Install as a standalone Agent Skill
+
+Install the trust workflow into Claude Code, Codex, Cursor, OpenCode, or another
+Agent Skills-compatible host:
+
+```sh
+npx skills add AgentTanuki/agent-guild-plugin --skill agent-guild-trust
+```
+
+This route uses the open Agent Skills ecosystem and keeps the same MCP endpoint,
+transparent client identity, and safety rules as the full plugin.
+
 ## Other compatible hosts
 
 This repository is the scanner-clean release package for the plugin. The
